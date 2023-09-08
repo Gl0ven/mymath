@@ -22,3 +22,7 @@ func Sqrt(x float64) float64 {
 func Max(x, y float64) float64 {
 	return math.Max(x, y)
 }
+
+func Yn(x int, y float64) float64 {
+	return math.Yn(x, y)
+}
